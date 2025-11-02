@@ -1,23 +1,32 @@
-.main {
-    margin: 0px;
-    padding: 0px;
-    width: 800px;
-    height: 100vh;
-    display: flex;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* 크기 계산 */
 }
 
-.about {
-    margin: 0px;
-    padding: 0px;
-    width: 800px;
-    height: 100vh;
-    display: flex;
+html,
+body {
+  width: 100%;
+  overflow-x: hidden; /* 가로 스크롤 방지 */
+  /* #링크 클릭 시 부드럽게 이동 */
+  scroll-behavior: smooth;
 }
 
+.content {
+  /* 사이드바 너비(250px)만큼 왼쪽 여백 */
+  margin-left: 250px;
+}
+
+.main,
+.about,
+.project,
+.resume,
 .contact {
-    margin: 0px;
-    padding: 0px;
-    width: 800px;
-    height: 100vh;
-    display: flex;
+  /* 각 섹션이 화면을 꽉 채우게 함 */
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
 }

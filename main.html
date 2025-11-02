@@ -10,34 +10,43 @@
     <meta name="description" content="김민석 | Developer, Marketor" />
 
     <link rel="stylesheet" href="mainStyle.css">
-    <link rel="stylesheet" href="headerStyle.css">
+    <link rel="stylesheet" href="sideBarStyle.css">
 </head>
 
 <body>
-    <section class="header">
-        <div class="index">
-            <nav class="index">
-                <a href="main.html">home</a>
-                <a href="#about">about</a>
-                <a href="project.html">project</a>
-                <a href="resume.html">resume</a>
-                <a href="#contact">contact</a>
-            </nav>
-        </div>
-    </section>
-    <section class="main">
-        <h2>
-            마케팅을 이해하는 개발자,<br>
-            프로그래밍 언어를 이해하는 마케터<br>
-            김민석입니다.
-        </h2>
-    </section>
-    <section class="about">
-        <p>about 섹션입니다.</p>
-    </section>
-    <section class="contact">
-        <p>contact 섹션입니다.</p>
-    </section>
+    <aside class="sidebar">
+        <nav class="sidebar-nav">
+            <ul>
+                <li><a href="main.html#main">home</a></li>
+                <li><a href="main.html#about">about</a></li>
+                <li><a href="main.html#project">project</a></li>
+                <li><a href="main.html#resume">resume</a></li>
+                <li><a href="main.html#contact">contact</a></li>
+            </ul>
+        </nav>
+    </aside>
+
+    <main class="content">
+        <section id="main" class="main">
+            <h2>
+                마케팅을 이해하는 개발자,<br>
+                프로그래밍 언어를 이해하는 마케터<br>
+                김민석입니다.
+            </h2>
+        </section>
+        <section id="about" class="about">
+            <p>about 섹션입니다.</p>
+        </section>
+        <section id="project" class="project">
+            <p>project 섹션입니다.</p>
+        </section>
+        <section id="resume" class="resume">
+            <p>resume 섹션입니다.</p>
+        </section>
+        <section id="contact" class="contact">
+            <p>contact 섹션입니다.</p>
+        </section>
+    </main>
 </body>
 
 </html>
